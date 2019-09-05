@@ -1,9 +1,3 @@
-/* 主要 Logo */
-.app-header .app-logo {
-  width: 136px;
-  background-image: url("");
-}
-
 :root {
   /* 主要背景 */
   --html-bkg-color: #0a0c16;
