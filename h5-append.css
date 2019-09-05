@@ -3,7 +3,7 @@
   --app-logo: url("");
 }
 
-:root {
+/*:root {
   /* APP 顶部、投注单底部 */
   --app-header-bkg: #000;
   --app-icon-color: #ebc612;
@@ -47,7 +47,7 @@
   /* 投注单键盘 */
   --bet-slip-keyboard-bkg: #34363a;
   --bet-slip-keyboard-bkg-active: #383400;
-}
+}*/
 
 /* 投注按钮 (可下注) */
 .bet-slip-tab .tab-content .bet-btn {
