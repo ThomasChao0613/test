@@ -1,26 +1,30 @@
+/* 首页 Logo */
+.app-header {
+  --app-logo: url("");
+}
 
 :root {
   /* APP 顶部、投注单底部 */
-  --app-header-bkg: #FFFFFF;
-  --app-icon-color: #FFFFFF;
+  --app-header-bkg: #000;
+  --app-icon-color: #ebc612;
 
   /* 背景颜色 */
-  --main-bkg-color: #FFFFFF;
-  --sub-bkg-color: #FFFFFF;
+  --main-bkg-color: #101010;
+  --sub-bkg-color: #262626;
   --weak-bkg-color: #181818;
   --focus-bkg-color: #141517;
   
   --main-border-color: #505050;
 
   /* 文字颜色 */
-  --main-text-color: #FFFFFF;
+  --main-text-color: #aaa;
   --sub-text-color: #666;
   --weak-text-color: #505050;
   --odds-text-color: #ebc612;
   --tip-text-color: #c5a813;
 
   /* tab 颜色 */
-  --tab-bar-active-color: #000000;
+  --tab-bar-active-color: #ff2;
 
   /* 首页 公告、日期 (文字、icon) */
   --home-carousel-text: #ebc612;
@@ -50,7 +54,7 @@
   box-shadow: 0 0 20px 0 rgba(235, 198, 18, 0.1);
   border-image-source: linear-gradient(106deg, #ffd400, #ebc612);
   background-image: linear-gradient(106deg, #ffd400, #ebc612);
-  color: #000000;
+  color: #000;
 }
 
 /* 投注按钮 (赔率有变化) */
